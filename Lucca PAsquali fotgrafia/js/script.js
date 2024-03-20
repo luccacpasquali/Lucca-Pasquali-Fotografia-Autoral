@@ -30,7 +30,6 @@ $(function(){
             }
     }
 
-   
 
     // JS SOCIALS
     $("#social-share").jsSocials({
