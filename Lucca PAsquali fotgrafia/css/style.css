@@ -486,6 +486,7 @@ footer{
 	.nav-footer{
 		display:flex;
 		justify-content: center;
+		font-size: 3px;
 	}
 }
 
@@ -514,4 +515,77 @@ footer{
 	div.textos-sobre-mim h1{
 		font-size: 36px;
 	}
+
+	.nav-footer ul li{
+		font-size: 18px;
+	}
 }
+
+@media screen and (max-width: 484px){
+	header{
+		height: 250px;
+		width: 100%;
+	}
+
+	header div.logo{
+		width: 30vw;
+	}
+
+	div.servicos ul li{
+		font-size:14px ;
+		padding: 0;
+	}
+	
+	div.textos-sobre-mim h1{ 
+		font-size: 30px;
+	}
+
+	div.textos-sobre-mim p{ 
+		font-size: 15px;
+	}
+
+	footer{	
+		padding: 0 2%;
+	}
+
+	.footer-txt{
+		padding-top: 2%;
+	}
+
+	.nav-footer ul li{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 364px){
+	div.textos-sobre-mim h1{ 
+		font-size: 26px;
+	}
+
+	div.textos-sobre-mim p{ 
+		font-size: 13px;
+	}
+
+	.footer-txt h2{
+		font-size: 13px;
+	}
+	.nav-footer ul li{
+		font-size: 13px;
+	}
+}
+	
+	
+
+@media screen and (max-width: 311px){
+	.footer-txt h2{
+		font-size: 11px;
+	}
+	.nav-footer ul li{
+		font-size: 11px;
+	}
+	
+	div.servicos ul li{
+		font-size:12px ;
+	}
+}
+	
